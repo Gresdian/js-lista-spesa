@@ -2,7 +2,7 @@ const expensive =['pane', 'pasta', 'vino' ,'cereali', 'uova', 'latte','carne' ];
 
 let container = document.getElementById('shopping-list');
 
-let i=1;
+let i=0;
 while(i< expensive.length){
     const li = document.createElement("li");
     li.innerText = expensive[i];
